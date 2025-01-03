@@ -1,6 +1,9 @@
 # PDF QA Full-Stack Application  
 This is a full-stack application that allows users to upload PDF documents and ask questions about their content using Natural Language Processing (NLP).  
 
+---
+![image](https://github.com/user-attachments/assets/185adec9-68f1-477e-91f6-261f9a46ca2f)
+
 ## Features  
 - **PDF Upload**: Users can upload PDF documents for processing.  
 - **Question Answering**: Users can ask questions related to the uploaded PDF content, and the system provides answers using NLP.  
@@ -19,7 +22,8 @@ The application is divided into two main parts:
    - **Framework**: React.js  
    - **UI/UX**: Interactive interface for uploading files and querying documents.  
 
----
+
+
 
 ## Project Setup  
 
