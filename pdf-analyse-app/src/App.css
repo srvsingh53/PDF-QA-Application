@@ -1,0 +1,137 @@
+.App-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px; /* Reduced padding for a shorter header */
+  height: 60px; /* Set the height explicitly */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visual separation */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Margin for spacing from the left edge */
+}
+
+.company-logo {
+  height: 80px; /* Adjust the height of the logo to fit the shorter header */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.company-name {
+  font-size: 1.2rem; /* Slightly smaller font size to fit */
+  font-weight: bold;
+  color: #333; /* Dark text for contrast */
+}
+
+.header-right .pdf-upload-button {
+  background-color:  #45a049;
+  color: black;
+  border: none;
+  padding: 8px 8px; /* Adjust padding for a compact look */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Slightly smaller font size */
+  margin-right: 20px;
+}
+
+.header-right .pdf-upload-button:hover {
+  background-color: #45a049;
+}
+
+.App-main {
+  padding: 20px;
+  position: relative;
+  min-height: calc(100vh - 100px); /* Adjust for header height */
+  padding-bottom: 80px; /* Space for the fixed input section */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.conversation-section {
+  margin: 0 auto; /* Center the section */
+  width: 95%; /* Add some margin on left and right */
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+.qna-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 70%; /* Center-align with margin and limit width */
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message, .response {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 10px;
+}
+.logo-icon{
+  margin-right: 10px;
+}
+.icon {
+  margin-right: 10px;
+  /* height: 80px; */
+  /* display: inline-flex
+; */
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0%;
+  width: 24px;
+}
+
+.icon img {
+  width: 30px; /* Make the image fill the container */
+  height: auto;
+  object-fit: contain;
+}
+
+.qna-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-left: 10px;
+}
+
+
+.question-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f9f9f9;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.send-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
